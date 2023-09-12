@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    text-align: center;
+
+    align-items: center;
+    flex-direction: column; 
+    margin: 0;
+    gap: 3rem;
+}
+
+
+h1{
+    font-size: 32px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+    color: #3f3d56;
+}
+p{
+    color:#828282;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    
+}
+span, a{
+    color: #ee24ff;
+}
+.flut{
+    color:#3f3d56;
+    font-family: 'Open Sans', bold;
+    font-weight: bold;
+}
+
+p strong{
+    color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-weight: bold;
+   
+}
+
+#footer{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
