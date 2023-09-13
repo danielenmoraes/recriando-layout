@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 
 body{
     display: flex;
@@ -9,19 +15,24 @@ body{
     gap: 3rem;
 }
 
+#texto img {
+    margin: 16px 0;
+}
+
 
 h1{
     font-size: 32px;
     font-family: 'Dosis', sans-serif;
     font-weight: 100;
     color: #3f3d56;
+    margin-bottom: 24px;
 }
 p{
     color:#828282;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     width: auto;
-    
+    margin-bottom: 10px;
 }
 span, a{
     color: #ee24ff;
@@ -48,4 +59,25 @@ footer{
     display: flex;
     gap: 3rem;
     align-items: center;
+}
+
+#footer div{
+    /* border: 1px solid black; */
+    width: 100px;
+}
+
+#wave {
+    width: 100%;
+
+    display: flex;
+}
+
+#wave img {
+    width: 100%;
+}
+
+#robbu-whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
